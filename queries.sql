@@ -24,7 +24,7 @@ CREATE TABLE ratings (
   movieId INTEGER,
   rating NUMERIC,
   timestamp INTEGER
-)
+);
 
 -- Insert data in table ratings
 
@@ -41,7 +41,7 @@ CREATE TABLE tags (
   movieId INTEGER,
   tag VARCHAR(250),
   timestamp INTEGER
-)
+);
 
 -- Insert data in table tags
 
@@ -57,7 +57,7 @@ CREATE TABLE genome_scores (
   movieId INTEGER,
   tagId INTEGER,
   relevance NUMERIC
-)
+);
 
 -- Insert data in table genome_scores
 
@@ -73,7 +73,7 @@ CREATE TABLE genome_tags (
   tagId INTEGER,
   tag VARCHAR(100),
   PRIMARY KEY(tagId)
-)
+);
 
 -- Insert data in table genome_tags
 
@@ -90,7 +90,7 @@ CREATE TABLE links (
   imdbId INTEGER,
   tmdbId INTEGER,
   PRIMARY KEY(movieId)
-)
+);
 
 -- Insert data in table links
 
